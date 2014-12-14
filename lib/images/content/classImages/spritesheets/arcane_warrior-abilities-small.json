@@ -1,0 +1,768 @@
+{"frames": [
+
+{
+	"filename": "arcane_warrior-ability-Arcing_Surge-grayOverlay-small.png",
+	"frame": {"x":228,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Arcing_Surge-small.png",
+	"frame": {"x":304,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Blinding_Terror-grayOverlay-small.png",
+	"frame": {"x":258,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Blinding_Terror-small.png",
+	"frame": {"x":322,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Blistering_Pain-grayOverlay-small.png",
+	"frame": {"x":380,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Blistering_Pain-small.png",
+	"frame": {"x":456,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Chain_Lightning-grayOverlay-small.png",
+	"frame": {"x":228,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Chain_Lightning-small.png",
+	"frame": {"x":304,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Combat_Clarity-grayOverlay-small.png",
+	"frame": {"x":386,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Combat_Clarity-small.png",
+	"frame": {"x":450,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Composed-grayOverlay-small.png",
+	"frame": {"x":514,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Composed-small.png",
+	"frame": {"x":578,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Conductive_Current-grayOverlay-small.png",
+	"frame": {"x":642,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Conductive_Current-small.png",
+	"frame": {"x":706,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Decloaking_Blast-grayOverlay-small.png",
+	"frame": {"x":1350,"y":67,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Decloaking_Blast-small.png",
+	"frame": {"x":2,"y":131,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Defending_Blade-grayOverlay-small.png",
+	"frame": {"x":532,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Defending_Blade-small.png",
+	"frame": {"x":608,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Dispel-grayOverlay-small.png",
+	"frame": {"x":684,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Dispel-small.png",
+	"frame": {"x":760,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Disturbance_of_Spirit-grayOverlay-small.png",
+	"frame": {"x":770,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Disturbance_of_Spirit-small.png",
+	"frame": {"x":835,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Encircling_Veil-grayOverlay-small.png",
+	"frame": {"x":900,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Encircling_Veil-small.png",
+	"frame": {"x":964,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Cloak-grayOverlay-small.png",
+	"frame": {"x":1350,"y":67,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Cloak-small.png",
+	"frame": {"x":2,"y":131,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Shield-grayOverlay-small.png",
+	"frame": {"x":1028,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Shield-small.png",
+	"frame": {"x":1092,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Step-grayOverlay-small.png",
+	"frame": {"x":836,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fade_Step-small.png",
+	"frame": {"x":912,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Flashfire-grayOverlay-small.png",
+	"frame": {"x":380,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Flashfire-small.png",
+	"frame": {"x":456,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Force_of_Will-grayOverlay-small.png",
+	"frame": {"x":1156,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Force_of_Will-small.png",
+	"frame": {"x":1221,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fortifying_Blast-grayOverlay-small.png",
+	"frame": {"x":988,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Fortifying_Blast-small.png",
+	"frame": {"x":1064,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Frost_Step-grayOverlay-small.png",
+	"frame": {"x":836,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Frost_Step-small.png",
+	"frame": {"x":912,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Gathering_Storm-grayOverlay-small.png",
+	"frame": {"x":1286,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Gathering_Storm-small.png",
+	"frame": {"x":1350,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Guardian_Spirit-grayOverlay-small.png",
+	"frame": {"x":1414,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Guardian_Spirit-small.png",
+	"frame": {"x":2,"y":66,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Mind_Blast-grayOverlay-small.png",
+	"frame": {"x":988,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Mind_Blast-small.png",
+	"frame": {"x":1064,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Mind_over_Matter-grayOverlay-small.png",
+	"frame": {"x":2,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Mind_over_Matter-small.png",
+	"frame": {"x":66,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Peaceful_Aura-grayOverlay-small.png",
+	"frame": {"x":66,"y":66,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Peaceful_Aura-small.png",
+	"frame": {"x":130,"y":66,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Phasing-grayOverlay-small.png",
+	"frame": {"x":258,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Phasing-small.png",
+	"frame": {"x":323,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Psychic_Backslash-grayOverlay-small.png",
+	"frame": {"x":388,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Psychic_Backslash-small.png",
+	"frame": {"x":453,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Pull_of_the_Abyss-grayOverlay-small.png",
+	"frame": {"x":1140,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Pull_of_the_Abyss-small.png",
+	"frame": {"x":1216,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Punching_Down-grayOverlay-small.png",
+	"frame": {"x":78,"y":131,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Punching_Down-small.png",
+	"frame": {"x":153,"y":131,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Rejuvenating_Barrier-grayOverlay-small.png",
+	"frame": {"x":194,"y":66,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Rejuvenating_Barrier-small.png",
+	"frame": {"x":518,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Restoration_Veil-grayOverlay-small.png",
+	"frame": {"x":582,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Restoration_Veil-small.png",
+	"frame": {"x":646,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Shaken_Veil-grayOverlay-small.png",
+	"frame": {"x":1140,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Shaken_Veil-small.png",
+	"frame": {"x":1216,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Shatterstone-grayOverlay-small.png",
+	"frame": {"x":1292,"y":142,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Shatterstone-small.png",
+	"frame": {"x":1368,"y":142,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Smothering_Veil-grayOverlay-small.png",
+	"frame": {"x":710,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Smothering_Veil-small.png",
+	"frame": {"x":774,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Spell_Sword-grayOverlay-small.png",
+	"frame": {"x":130,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Spell_Sword-small.png",
+	"frame": {"x":194,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Spirit_Blade-grayOverlay-small.png",
+	"frame": {"x":532,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Spirit_Blade-small.png",
+	"frame": {"x":608,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Static_Charge-grayOverlay-small.png",
+	"frame": {"x":838,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Static_Charge-small.png",
+	"frame": {"x":902,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Stonefist-grayOverlay-small.png",
+	"frame": {"x":1292,"y":142,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Stonefist-small.png",
+	"frame": {"x":1368,"y":142,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Stormbringer-grayOverlay-small.png",
+	"frame": {"x":966,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Stormbringer-small.png",
+	"frame": {"x":1030,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Strength_of_Spirits-grayOverlay-small.png",
+	"frame": {"x":1094,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Strength_of_Spirits-small.png",
+	"frame": {"x":1158,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Transmute_Magic-grayOverlay-small.png",
+	"frame": {"x":684,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Transmute_Magic-small.png",
+	"frame": {"x":760,"y":132,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Twisting_Veil-grayOverlay-small.png",
+	"frame": {"x":1222,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Twisting_Veil-small.png",
+	"frame": {"x":1286,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Veilstrike-grayOverlay-small.png",
+	"frame": {"x":78,"y":131,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-ability-Veilstrike-small.png",
+	"frame": {"x":153,"y":131,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "arcane_warrior-abilities-small.png",
+	"format": "RGBA8888",
+	"size": {"w":1478,"h":218},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:09e06dd949358c68635459f1b8aa512d:3fe50a29356531eae829299645c107ea:8805fc5e9873f7ad1e3421cf9ad76705$"
+}
+}

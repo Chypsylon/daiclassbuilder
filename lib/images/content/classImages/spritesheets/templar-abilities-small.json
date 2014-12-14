@@ -1,0 +1,822 @@
+{"frames": [
+
+{
+	"filename": "templar-ability-Adamant-grayOverlay-small.png",
+	"frame": {"x":608,"y":152,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Adamant-small.png",
+	"frame": {"x":609,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-And_No_Further-grayOverlay-small.png",
+	"frame": {"x":2,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-And_No_Further-small.png",
+	"frame": {"x":2,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bear_Mauls_the_Wolves-grayOverlay-small.png",
+	"frame": {"x":609,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bear_Mauls_the_Wolves-small.png",
+	"frame": {"x":673,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Biggest_Threat-grayOverlay-small.png",
+	"frame": {"x":674,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Biggest_Threat-small.png",
+	"frame": {"x":674,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Blessed_Blades-grayOverlay-small.png",
+	"frame": {"x":382,"y":78,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Blessed_Blades-small.png",
+	"frame": {"x":382,"y":153,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bodyguard-grayOverlay-small.png",
+	"frame": {"x":458,"y":152,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bodyguard-small.png",
+	"frame": {"x":533,"y":152,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bulwark-grayOverlay-small.png",
+	"frame": {"x":1128,"y":132,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Bulwark-small.png",
+	"frame": {"x":1192,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Challenge-grayOverlay-small.png",
+	"frame": {"x":534,"y":2,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Challenge-small.png",
+	"frame": {"x":534,"y":77,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Champions_of_the_Just-grayOverlay-small.png",
+	"frame": {"x":1192,"y":66,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Champions_of_the_Just-small.png",
+	"frame": {"x":1192,"y":130,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Chevaliers_Step-grayOverlay-small.png",
+	"frame": {"x":2,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Chevaliers_Step-small.png",
+	"frame": {"x":78,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Combat_Roll-grayOverlay-small.png",
+	"frame": {"x":78,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Combat_Roll-small.png",
+	"frame": {"x":78,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Crippling_Blows-grayOverlay-small.png",
+	"frame": {"x":738,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Crippling_Blows-small.png",
+	"frame": {"x":739,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Cutting_Words-grayOverlay-small.png",
+	"frame": {"x":739,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Cutting_Words-small.png",
+	"frame": {"x":803,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Deep_Reserves-grayOverlay-small.png",
+	"frame": {"x":804,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Deep_Reserves-small.png",
+	"frame": {"x":804,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Embrace_the_Light-grayOverlay-small.png",
+	"frame": {"x":458,"y":2,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Embrace_the_Light-small.png",
+	"frame": {"x":458,"y":77,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Flow_of_the_Battle-grayOverlay-small.png",
+	"frame": {"x":868,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Flow_of_the_Battle-small.png",
+	"frame": {"x":869,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Guard_Smasher-grayOverlay-small.png",
+	"frame": {"x":1256,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Guard_Smasher-small.png",
+	"frame": {"x":1256,"y":66,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Horn_of_Valor-grayOverlay-small.png",
+	"frame": {"x":154,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Horn_of_Valor-small.png",
+	"frame": {"x":154,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Lights_in_the_Shadow-grayOverlay-small.png",
+	"frame": {"x":382,"y":78,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Lights_in_the_Shadow-small.png",
+	"frame": {"x":382,"y":153,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Line_in_the_Sand-grayOverlay-small.png",
+	"frame": {"x":2,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Line_in_the_Sand-small.png",
+	"frame": {"x":2,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Mage_Slayer-grayOverlay-small.png",
+	"frame": {"x":1064,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Mage_Slayer-small.png",
+	"frame": {"x":1064,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Makers_Will-grayOverlay-small.png",
+	"frame": {"x":869,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Makers_Will-small.png",
+	"frame": {"x":933,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Not_Today-grayOverlay-small.png",
+	"frame": {"x":458,"y":152,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Not_Today-small.png",
+	"frame": {"x":533,"y":152,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Payback_Strike-grayOverlay-small.png",
+	"frame": {"x":154,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Payback_Strike-small.png",
+	"frame": {"x":230,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Resilience-grayOverlay-small.png",
+	"frame": {"x":934,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Resilience-small.png",
+	"frame": {"x":934,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Ring_the_Bell-grayOverlay-small.png",
+	"frame": {"x":230,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Ring_the_Bell-small.png",
+	"frame": {"x":230,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Roll_wit_It-grayOverlay-small.png",
+	"frame": {"x":78,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Roll_wit_It-small.png",
+	"frame": {"x":78,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Shield_Bash-grayOverlay-small.png",
+	"frame": {"x":230,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Shield_Bash-small.png",
+	"frame": {"x":230,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Shield_Wall-grayOverlay-small.png",
+	"frame": {"x":2,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Shield_Wall-small.png",
+	"frame": {"x":78,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Spell_Purge-grayOverlay-small.png",
+	"frame": {"x":306,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Spell_Purge-small.png",
+	"frame": {"x":306,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Spell_Shatter-grayOverlay-small.png",
+	"frame": {"x":306,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Spell_Shatter-small.png",
+	"frame": {"x":306,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Still_Standing-grayOverlay-small.png",
+	"frame": {"x":306,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Still_Standing-small.png",
+	"frame": {"x":382,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Sweet_Revenge-grayOverlay-small.png",
+	"frame": {"x":154,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Sweet_Revenge-small.png",
+	"frame": {"x":230,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Thats_the_Spirit-grayOverlay-small.png",
+	"frame": {"x":154,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Thats_the_Spirit-small.png",
+	"frame": {"x":154,"y":78,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-The_Last_Sacrifice-grayOverlay-small.png",
+	"frame": {"x":1256,"y":130,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-The_Last_Sacrifice-small.png",
+	"frame": {"x":1320,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-There_Is_No_Darkness-grayOverlay-small.png",
+	"frame": {"x":998,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-There_Is_No_Darkness-small.png",
+	"frame": {"x":999,"y":2,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Throw_the_Gauntlet-grayOverlay-small.png",
+	"frame": {"x":534,"y":2,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Throw_the_Gauntlet-small.png",
+	"frame": {"x":534,"y":77,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Trust_the_Steel-grayOverlay-small.png",
+	"frame": {"x":999,"y":67,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Trust_the_Steel-small.png",
+	"frame": {"x":1063,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Turn_the_Blade-grayOverlay-small.png",
+	"frame": {"x":1384,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Turn_the_Blade-small.png",
+	"frame": {"x":1448,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Turn_the_Bolt-grayOverlay-small.png",
+	"frame": {"x":1320,"y":66,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Turn_the_Bolt-small.png",
+	"frame": {"x":1320,"y":130,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Unbowed-grayOverlay-small.png",
+	"frame": {"x":306,"y":154,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Unbowed-small.png",
+	"frame": {"x":382,"y":2,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Untouchable_Defense-grayOverlay-small.png",
+	"frame": {"x":1384,"y":66,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Untouchable_Defense-small.png",
+	"frame": {"x":1448,"y":66,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Unyielding-grayOverlay-small.png",
+	"frame": {"x":1384,"y":130,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Unyielding-small.png",
+	"frame": {"x":1448,"y":130,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Valiant-grayOverlay-small.png",
+	"frame": {"x":1128,"y":2,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Valiant-small.png",
+	"frame": {"x":1128,"y":67,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Wrath_of_Heaven-grayOverlay-small.png",
+	"frame": {"x":458,"y":2,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-ability-Wrath_of_Heaven-small.png",
+	"frame": {"x":458,"y":77,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "templar-abilities-small.png",
+	"format": "RGBA8888",
+	"size": {"w":1512,"h":230},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c32e3389320f0798ab718b01a76ada81:a50063fcddf5e8f7b80c939f20c0a7f9:602539ba5c4bfb4fa0e9e859f6e11ffb$"
+}
+}

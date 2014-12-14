@@ -1,0 +1,768 @@
+{"frames": [
+
+{
+	"filename": "assassin-ability-Ambush-grayOverlay-small.png",
+	"frame": {"x":2,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Ambush-small.png",
+	"frame": {"x":56,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bait_and_Switch-grayOverlay-small.png",
+	"frame": {"x":1028,"y":56,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bait_and_Switch-small.png",
+	"frame": {"x":1091,"y":56,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bloodied_Prey-grayOverlay-small.png",
+	"frame": {"x":110,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bloodied_Prey-small.png",
+	"frame": {"x":164,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bloodthirst-grayOverlay-small.png",
+	"frame": {"x":218,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Bloodthirst-small.png",
+	"frame": {"x":272,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cheap_Shot-grayOverlay-small.png",
+	"frame": {"x":326,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cheap_Shot-small.png",
+	"frame": {"x":380,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cripple-grayOverlay-small.png",
+	"frame": {"x":434,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cripple-small.png",
+	"frame": {"x":488,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cull_the_Herd-grayOverlay-small.png",
+	"frame": {"x":542,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Cull_the_Herd-small.png",
+	"frame": {"x":596,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Dance_of_Death-grayOverlay-small.png",
+	"frame": {"x":650,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Dance_of_Death-small.png",
+	"frame": {"x":704,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Deadly-grayOverlay-small.png",
+	"frame": {"x":758,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Deadly-small.png",
+	"frame": {"x":812,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Deathblow-grayOverlay-small.png",
+	"frame": {"x":2,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Deathblow-small.png",
+	"frame": {"x":65,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Easy_to_Miss-grayOverlay-small.png",
+	"frame": {"x":866,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Easy_to_Miss-small.png",
+	"frame": {"x":920,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Evade-grayOverlay-small.png",
+	"frame": {"x":128,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Evade-small.png",
+	"frame": {"x":191,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Evasion-grayOverlay-small.png",
+	"frame": {"x":974,"y":2,"w":53,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":52},
+	"sourceSize": {"w":53,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Evasion-small.png",
+	"frame": {"x":1029,"y":2,"w":53,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":52},
+	"sourceSize": {"w":53,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Explosive_Toxin-grayOverlay-small.png",
+	"frame": {"x":1084,"y":2,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Explosive_Toxin-small.png",
+	"frame": {"x":2,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Fallback_Plan-grayOverlay-small.png",
+	"frame": {"x":254,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Fallback_Plan-small.png",
+	"frame": {"x":317,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Fighting_Dirtty-grayOverlay-small.png",
+	"frame": {"x":56,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Fighting_Dirtty-small.png",
+	"frame": {"x":110,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-First_Blood-grayOverlay-small.png",
+	"frame": {"x":164,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-First_Blood-small.png",
+	"frame": {"x":218,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Flank_Attack-grayOverlay-small.png",
+	"frame": {"x":380,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Flank_Attack-small.png",
+	"frame": {"x":443,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hidden_Blades-grayOverlay-small.png",
+	"frame": {"x":506,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hidden_Blades-small.png",
+	"frame": {"x":569,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hidden_Step-grayOverlay-small.png",
+	"frame": {"x":632,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hidden_Step-small.png",
+	"frame": {"x":695,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hook_and_Tackle-grayOverlay-small.png",
+	"frame": {"x":758,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Hook_and_Tackle-small.png",
+	"frame": {"x":821,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-I_Was_Never_Here-grayOverlay-small.png",
+	"frame": {"x":272,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-I_Was_Never_Here-small.png",
+	"frame": {"x":326,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Infected_Wounds-grayOverlay-small.png",
+	"frame": {"x":884,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Infected_Wounds-small.png",
+	"frame": {"x":947,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-It_Beats_Walking-grayOverlay-small.png",
+	"frame": {"x":1010,"y":119,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-It_Beats_Walking-small.png",
+	"frame": {"x":1073,"y":119,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Knife_in_the_Shadows-grayOverlay-small.png",
+	"frame": {"x":380,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Knife_in_the_Shadows-small.png",
+	"frame": {"x":434,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Looked_Like_It_Hurt-grayOverlay-small.png",
+	"frame": {"x":488,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Looked_Like_It_Hurt-small.png",
+	"frame": {"x":542,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Lost_in_the_Shadows-grayOverlay-small.png",
+	"frame": {"x":2,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Lost_in_the_Shadows-small.png",
+	"frame": {"x":65,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Mercy_KIlling-grayOverlay-small.png",
+	"frame": {"x":596,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Mercy_KIlling-small.png",
+	"frame": {"x":650,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Neverending_Spin-grayOverlay-small.png",
+	"frame": {"x":128,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Neverending_Spin-small.png",
+	"frame": {"x":191,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Overkill-grayOverlay-small.png",
+	"frame": {"x":506,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Overkill-small.png",
+	"frame": {"x":569,"y":110,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Poisoned_Weapons-grayOverlay-small.png",
+	"frame": {"x":254,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Poisoned_Weapons-small.png",
+	"frame": {"x":317,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Quick_Blade-grayOverlay-small.png",
+	"frame": {"x":380,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Quick_Blade-small.png",
+	"frame": {"x":443,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Ripping_Fangs-grayOverlay-small.png",
+	"frame": {"x":506,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Ripping_Fangs-small.png",
+	"frame": {"x":569,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Shadow_Strike-grayOverlay-small.png",
+	"frame": {"x":380,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Shadow_Strike-small.png",
+	"frame": {"x":443,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Skirmisher-grayOverlay-small.png",
+	"frame": {"x":632,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Skirmisher-small.png",
+	"frame": {"x":695,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Sneak_Attack-grayOverlay-small.png",
+	"frame": {"x":704,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Sneak_Attack-small.png",
+	"frame": {"x":758,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Spinning_Blades-grayOverlay-small.png",
+	"frame": {"x":758,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Spinning_Blades-small.png",
+	"frame": {"x":821,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Stealth-grayOverlay-small.png",
+	"frame": {"x":2,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Stealth-small.png",
+	"frame": {"x":65,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Thrill_of_Victory-grayOverlay-small.png",
+	"frame": {"x":884,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Thrill_of_Victory-small.png",
+	"frame": {"x":947,"y":173,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Throatcutter-grayOverlay-small.png",
+	"frame": {"x":812,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Throatcutter-small.png",
+	"frame": {"x":866,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Twin_Fangs-grayOverlay-small.png",
+	"frame": {"x":1010,"y":182,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Twin_Fangs-small.png",
+	"frame": {"x":1073,"y":182,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Unforgiving_Chain-grayOverlay-small.png",
+	"frame": {"x":920,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-ability-Unforgiving_Chain-small.png",
+	"frame": {"x":974,"y":56,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "assassin-abilities-small.png",
+	"format": "RGBA8888",
+	"size": {"w":1154,"h":245},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:900249b92608560969769f971be3241a:a7d5dabcc458768fe53f5657572b0de5:bc5b00fca9209cda29805c85042c9c7a$"
+}
+}

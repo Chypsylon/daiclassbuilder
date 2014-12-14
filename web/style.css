@@ -1,0 +1,11 @@
+body {
+	padding-top: 50px;
+}
+
+#classSelector {
+	overflow-x:scroll;
+}
+
+#classSelector > ul{
+	white-space:nowrap;
+}

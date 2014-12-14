@@ -1,0 +1,6 @@
+name: classbuilder
+author: Chypsylon
+description: Class builder for dragon age inquisition
+dependencies:
+  browser: any
+  logging_handlers: any

@@ -1,0 +1,228 @@
+{"frames": [
+
+{
+	"filename": "legionaire-card-grayOverlay-small.png",
+	"frame": {"x":2,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "legionaire-card-small.png",
+	"frame": {"x":2,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "katari-card-grayOverlay-small.png",
+	"frame": {"x":111,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "katari-card-small.png",
+	"frame": {"x":111,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-card-grayOverlay-small.png",
+	"frame": {"x":220,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "assassin-card-small.png",
+	"frame": {"x":220,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "archer-card-grayOverlay-small.png",
+	"frame": {"x":329,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "archer-card-small.png",
+	"frame": {"x":329,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "elementalist-card-grayOverlay-small.png",
+	"frame": {"x":438,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "elementalist-card-small.png",
+	"frame": {"x":438,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "keeper-card-grayOverlay-small.png",
+	"frame": {"x":547,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "keeper-card-small.png",
+	"frame": {"x":547,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "alchemist-card-grayOverlay-small.png",
+	"frame": {"x":656,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "alchemist-card-small.png",
+	"frame": {"x":656,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "necromancer-card-grayOverlay-small.png",
+	"frame": {"x":765,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "necromancer-card-small.png",
+	"frame": {"x":765,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "reaver-card-grayOverlay-small.png",
+	"frame": {"x":874,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "reaver-card-small.png",
+	"frame": {"x":874,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-card-grayOverlay-small.png",
+	"frame": {"x":983,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "templar-card-small.png",
+	"frame": {"x":983,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hunter-card-grayOverlay-small.png",
+	"frame": {"x":1092,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hunter-card-small.png",
+	"frame": {"x":1092,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-card-grayOverlay-small.png",
+	"frame": {"x":1201,"y":2,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "arcane_warrior-card-small.png",
+	"frame": {"x":1201,"y":182,"w":107,"h":178},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":178},
+	"sourceSize": {"w":107,"h":178},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "character-cards.png",
+	"format": "RGBA8888",
+	"size": {"w":1310,"h":362},
+	"scale": "0.41667",
+	"smartupdate": "$TexturePacker:SmartUpdate:d39324a5905114d6e4ca230ba5fca674:7a689d3675c4c398ae9252f41fe01c59:329651b55811a2feda1187f556d6cd9d$"
+}
+}
