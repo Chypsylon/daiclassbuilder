@@ -16,7 +16,7 @@ Character selectedChar;
 void main() {
     startQuickLogging();
 
-    Character.loadClassSelectorImages().then((_) {
+    Character.loadClassSelectorFiles().then((_) {
         characters = [new Character("Alchemist", "Rogue"), new Character("Arcane Warrior", "Mage"), new Character("Assassin", "Rogue"), new Character("Elementalist", "Mage"), new Character("Hunter", "Rogue"), new Character("Katari", "Warrior"), new Character("Keeper", "Mage"), new Character("Legionaire", "Warrior"), new Character("Necromancer", "Mage"), new Character("Reaver", "Rogue"), new Character("Templar", "Warrior")];
     });
 }
@@ -70,10 +70,11 @@ class Character {
         });
 
         newLi.onClick.listen((_) {
+            if (selectedChar != null) {
+                selectedChar.changeClassSelectorImage(active: false);
+            }
             selectedChar = this;
-            characters.forEach((char) {
-                char.changeClassSelectorImage();
-            });
+            changeClassSelectorImage();
         });
 
         charCardDiv = new DivElement();
@@ -88,21 +89,36 @@ class Character {
     }
 
     void changeClassSelectorImage({bool active}) {
-        //if selected
-        if (identical(selectedChar, this) || active == true) {
-            info("${id} set classSelectorImage to active");
-            charCardDiv.style.width = charCard.width.toString() + "px";
-            charCardDiv.style.height = charCard.height.toString() + "px";
-            charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCard.x}px -${charCard.y}px";
+        //it's too late to come up with a smarter logical solution
+        if (active != null) {
+            if (active) {
+                info("${id} set classSelectorImage to active");
+                charCardDiv.style.width = charCard.width.toString() + "px";
+                charCardDiv.style.height = charCard.height.toString() + "px";
+                charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCard.x}px -${charCard.y}px";
+            } else {
+                info("${id} set classSelectorImage to inactive");
+                charCardDiv.style.width = charCardGrey.width.toString() + "px";
+                charCardDiv.style.height = charCardGrey.height.toString() + "px";
+                charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCardGrey.x}px -${charCardGrey.y}px";
+            }
         } else {
-            info("${id} set classSelectorImage to inactive");
-            charCardDiv.style.width = charCardGrey.width.toString() + "px";
-            charCardDiv.style.height = charCardGrey.height.toString() + "px";
-            charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCardGrey.x}px -${charCardGrey.y}px";
+            if (identical(selectedChar, this)) {
+                info("${id} set classSelectorImage to active");
+                charCardDiv.style.width = charCard.width.toString() + "px";
+                charCardDiv.style.height = charCard.height.toString() + "px";
+                charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCard.x}px -${charCard.y}px";
+            } else {
+                info("${id} set classSelectorImage to inactive");
+                charCardDiv.style.width = charCardGrey.width.toString() + "px";
+                charCardDiv.style.height = charCardGrey.height.toString() + "px";
+                charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCardGrey.x}px -${charCardGrey.y}px";
+            }
         }
+
     }
 
-    static Future loadClassSelectorImages() {
+    static Future loadClassSelectorFiles() {
         charCards = new ImageElement(src: "${SPRITESHEET_PATH}/character-cards.png");
         Future charCardsJsonFuture = HttpRequest.getString("${SPRITESHEET_PATH}/character-cards.json").then((String fileContents) {
             info("charCards info loaded");
