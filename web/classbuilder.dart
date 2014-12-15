@@ -4,6 +4,7 @@ import "dart:convert" show JSON;
 import "dart:async" show Future;
 
 final String SPRITESHEET_PATH = "packages/classbuilder/images/content/classImages/spritesheets";
+final String CHARACTER_PATH = "packages/classbuilder/characters";
 
 //TODO: parse from JSON file
 List<Character> characters;
@@ -25,7 +26,7 @@ void main() {
 class Character {
     String name;
     String id;
-    List<String> abilities = [];
+    Map abilities;
     List<String> attributes = [];
     String classType;
     SpriteImage charCard;
@@ -41,7 +42,6 @@ class Character {
         charCard = getSpriteInfo(charCardsInfo, "card");
         charCardGrey = getSpriteInfo(charCardsInfo, "card", true);
         setupClassSelectorImage();
-        //TODO: load abilities
     }
 
     SpriteImage getSpriteInfo(List<String> infoList, String type, [bool grey = false, bool small = true]) {
@@ -70,11 +70,7 @@ class Character {
         });
 
         newLi.onClick.listen((_) {
-            if (selectedChar != null) {
-                selectedChar.changeClassSelectorImage(active: false);
-            }
-            selectedChar = this;
-            changeClassSelectorImage();
+            selectChar();
         });
 
         charCardDiv = new DivElement();
@@ -92,24 +88,24 @@ class Character {
         //it's too late to come up with a smarter logical solution
         if (active != null) {
             if (active) {
-                info("${id} set classSelectorImage to active");
+                debug("${id} set classSelectorImage to active");
                 charCardDiv.style.width = charCard.width.toString() + "px";
                 charCardDiv.style.height = charCard.height.toString() + "px";
                 charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCard.x}px -${charCard.y}px";
             } else {
-                info("${id} set classSelectorImage to inactive");
+                debug("${id} set classSelectorImage to inactive");
                 charCardDiv.style.width = charCardGrey.width.toString() + "px";
                 charCardDiv.style.height = charCardGrey.height.toString() + "px";
                 charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCardGrey.x}px -${charCardGrey.y}px";
             }
         } else {
             if (identical(selectedChar, this)) {
-                info("${id} set classSelectorImage to active");
+                debug("${id} set classSelectorImage to active");
                 charCardDiv.style.width = charCard.width.toString() + "px";
                 charCardDiv.style.height = charCard.height.toString() + "px";
                 charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCard.x}px -${charCard.y}px";
             } else {
-                info("${id} set classSelectorImage to inactive");
+                debug("${id} set classSelectorImage to inactive");
                 charCardDiv.style.width = charCardGrey.width.toString() + "px";
                 charCardDiv.style.height = charCardGrey.height.toString() + "px";
                 charCardDiv.style.background = "url(${SPRITESHEET_PATH}/character-cards.png) no-repeat -${charCardGrey.x}px -${charCardGrey.y}px";
@@ -132,6 +128,25 @@ class Character {
         return Future.wait(futures).then((_) {
             info("charCards loaded");
         });
+    }
+
+    void selectChar() {
+        if (selectedChar != null) {
+            selectedChar.changeClassSelectorImage(active: false);
+        }
+        selectedChar = this;
+        changeClassSelectorImage();
+        
+        //load abilites
+        HttpRequest.getString("${CHARACTER_PATH}/${id}-abilities.json").then((String fileContent) {
+            info("${id}: abilities loaded");
+            abilities = JSON.decode(fileContent);
+            info(abilities.toString());
+        }).catchError((err) {
+            error("${id}: failed to load abilities. ${err}");
+        });
+        
+        
     }
 }
 

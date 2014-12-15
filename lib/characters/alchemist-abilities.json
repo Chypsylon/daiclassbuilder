@@ -1,489 +1,775 @@
 {
-    "name" : "Alchemy",
-    "abilities" : [
-      {
-        "name" : "Elemental Mines",
-        "description" : "You throw out an assortment of different Traps in Front of you, applying different elemental effects to enemies that come into range.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage", "description" : "50% Weapon damage"},
-          {"affects" : "Chill Duration", "description" : "8 seconds"},
-          {"affects" : "Fire Damage", "description" : "50% Weapon damage per second"},
-          {"affects" : "Fire Damage Duration", "description" : "8 seconds"},
-          {"affects" : "Shocked Duration", "description" : "8 seconds"},
-          {"affects" : "Cooldown", "description" : "24 seconds"},
-          {"affects" : "Cost", "description" : "50 Stamina"}
-        ],
-
-        "parent" : ""
-      },
-      {
-        "name" : "Throw Everything",
-        "description" : "It's now or never. You use every ounce of Stamina you've got to litter the Battlefield with Traps. The more Stamina you use, the more traps you throw.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Additional Traps", "description" : "1 for every 5 Stamina"}
-        ],
-        "parent" : "Elemental Mines"
-      },
-      {
-        "name" : "Sneak Attack",
-        "description" : "Attacks upon a target's back or flank are much more likley to be killing blows.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Critical Hit Chance", "description" : "22%"},
-          {"affects" : "Cunning on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Elemental Mines"
-      },
-      {
-        "name" : "Poisoned Weapons",
-        "description" : "You coat your weapons in a deadly toxin, making every attack poison enemies for a short time.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage", "description" : "25% weapon damage per second"},
-          {"affects" : "Damage Duration", "description" : "8 seconds"},
-          {"affects" : "Duration", "description" : "10 seconds"},
-          {"affects" : "Cooldown", "description" : "24 seconds"},
-          {"affects" : "Cost", "description" : "20 Stamina"}
-        ],
-
-        "parent" : "Sneak Attack"
-      },
-      {
-        "name" : "Infected Wounds",
-        "description" : "Your poison helps your blades and arrows bite deeper. You do more damage with your weapon while Poisoned Weapons is active",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Damage Bonus", "description" : "25%"}
-        ],
-        "parent" : "Poisoned Weapons"
-      },
-      {
-        "name" : "Flask of Frost",
-        "description" : "This flask coats you in an icy skin that increases your armor and freezes enemies that strike you in melee range. You can't use this ability while another elixier is active.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage Resistance", "description" : "85%"},
-          {"affects" : "Freeze Duration", "description" : "1 seconds"},
-          {"affects" : "Duration", "description" : "5 seconds"},
-          {"affects" : "Cooldown", "description" : "32 seconds"},
-          {"affects" : "Cost", "description" : "20 Stamina"}
-        ],
-
-        "parent" : "Sneak Attack"
-      },
-      {
-        "name" : "Bitter Chill",
-        "description" : "Activating Flask of Frost also taunts all nearby foes to attack you.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Radius", "description" : "5 meters"}
-        ],
-        "parent" : "Flask of Frost"
-      },
-      {
-        "name" : "Dance of Death",
-        "description" : "You regain Stamina with every kill, the better to continue your assault.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Stamina restored", "description" : "50"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Sneak Attack"
-      },
-      {
-        "name" : "Unorthodox",
-        "description" : "The Alchimist's mind traveles curious, twisting paths, and though her methods are strange, they are effective.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Dexterity on unlock", "description" : "+3"},
-          {"affects" : "Cunning on unlock", "description" : "+6"}
-        ],
-
-        "parent" : "Dance of Death"
-      },
-      {
-        "name" : "Alchemy Mastery",
-        "description" : "Any status effects caused by your Alchemy now lasts longer.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Duration Bonus", "description" : "25%"},
-          {"affects" : "Cunning on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Dance of Death"
-      },
-      {
-        "name" : "Fighting Dirty",
-        "description" : "All of your sunder and poison effects last longer as you make more potent toxins and uglier wounds.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Duration Bonus", "description" : "25%"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Dance of Death"
-      },
-      {
-        "name" : "Toxic Cloud",
-        "description" : "You unleash a cloud of toxic dust that damages all enemies that remain in the area.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Radius", "description" : "3 meters"},
-          {"affects" : "Damage", "description" : "15% weapon damage per second"},
-          {"affects" : "Duration", "description" : "8 seconds"},
-          {"affects" : "Cooldown", "description" : "32 seconds"},
-          {"affects" : "Cost", "description" : "50 Stamina"}
-        ],
-
-        "parent" : "Fighting Dirty"
-      },
-      {
-        "name" : "Contact Poison",
-        "description" : "Toxic Cloud has a shorter cooldown time and now also poisons enemies in the area.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Cooldown Reduction", "description" : "5 seconds"},
-          {"affects" : "Damage", "description" : "15% weapon damage per second"},
-          {"affects" : "Duration", "description" : "8 seconds"}
-        ],
-        "parent" : "Toxic Cloud"
-      },
-      {
-        "name" : "Explosive Toxin",
-        "description" : "Your poisons curdle the blood of your targets. Enemies that die while poisoned explode in a shower of toxic mist.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Duration", "description" : "8 seconds"},
-          {"affects" : "Radius", "description" : "3 meters"},
-          {"affects" : "Damage", "description" : "50% weapon damage per second"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Toxic Cloud"
-      },
-      {
-        "name" : "Knockout Bomb",
-        "description" : "You hurl a grenade containing a powerful concoction that puts nearby enmeis to sleep. Sleeping enemies awaken after taking damage.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Duration", "description" : "10 seconds"},
-          {"affects" : "Cooldown", "description" : "20 seconds"},
-          {"affects" : "Cost", "description" : "35 Stamina"}
-        ],
-
-        "parent" : "Fighting Dirty"
-      },
-      {
-        "name" : "Comatose",
-        "description" : "Enemies affected by Knockout Bomb sleep more deeply, allowing your allies to hit them even harder with flanking damage.",
-        "type" : "active-upgrade",
-        "effects" : [
-        ],
-        "parent" : "Knockout Bomb"
-      },
-      {
-        "name" : "Mercy Killing",
-        "description" : "When their hearts aren't in the fight, it's almost too easy. Your attaks on panicked or sleeping enemies are automatical critical hits.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Cunning on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Knockout Bomb"
-      },
-      {
-        "name" : "Flask of Fire",
-        "description" : "This flask coats you in flames that spur you to frenzied action. For a short time, your abilities cost no stamina, and enemies who attack you are knocked backward. You can't use this ability while another elixier is active.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Duration", "description" : "5 seconds"},
-          {"affects" : "Cooldown", "description" : "32 seconds"},
-          {"affects" : "Cost", "description" : "20 Stamina"}
-        ],
-
-        "parent" : "Fighting Dirty"
-      },
-      {
-        "name" : "Unquenchable Flames",
-        "description" : "While flask of fire is active, all of your abilties have no cooldown.",
-        "type" : "active-upgrade",
-        "effects" : [
-        ],
-        "parent" : "Flask of Fire"
-      },
-      {
-        "name" : "Ride in the Storm",
-        "description" : "The effects of your elixiers last longer if you activate one immediatley after another expires.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Bonus duration", "description" : "3 seconds"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Flask of Fire"
-      },
-      {
-        "name" : "Killer's Alchemy",
-        "description" : "You can use more concentrated elixiers that give you an uncanny edge in battle. You do Bonus damage with all attacks for a short time whenever you use an elixier or a potion. The effect stacks.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Damage Bonus", "description" : "15%"},
-          {"affects" : "Duration", "description" : "10 seconds"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Flask of Fire"
-      }
-    ]
-  },
-  {
-    "name" : "Cunning",
-    "abilities" : [
-      {
-        "name" : "Stealth",
-        "description" : "You step into the shadows, all but invisble to your enemies. Attacking from stealth gives you a damage bonus and brings you back to the enemy's attention. Dealing damage to enemies reduces the ability's cooldown time.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage Bonus", "description" : "50%"},
-          {"affects" : "Duration", "description" : "30 seconds"},
-          {"affects" : "Cooldown", "description" : "24 seconds"},
-          {"affects" : "Cost", "description" : "20 Stamina"}
-        ],
-
-        "parent" : ""
-      },
-      {
-        "name" : "Lost in the shadows",
-        "description" : "You live in the darkness. Entering stealth is now instant and removes all debilitating effects on you. While in stealth, you can even pass through enemies without being detected.",
-        "type" : "active-upgrade",
-        "effects" : [
-        ],
-        "parent" : "Stealth"
-      },
-      {
-        "name" : "Ambush",
-        "description" : "While you're in Stealth and shortly after leaving it, your attacks ignore some of your target's armor.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Armor Penetration", "description" : "50%"},
-          {"affects" : "Duration", "description" : "6"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-
-        ],
-
-        "parent" : "Stealth"
-      },
-      {
-        "name" : "Evade",
-        "description" : "You leap away from incoming attacks, putting yourself where you need to be to win this fight.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Cooldown", "description" : "2 seconds"},
-          {"affects" : "Cost", "description" : "20 Stamina"}
-        ],
-
-        "parent" : "Ambush"
-      },
-      {
-        "name" : "Hidden Step",
-        "description" : "Enemies will swear you're still there, attacking empty air and hurting nobody but themselves as you leap away.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Duration", "description" : "3 seconds"},
-          {"affects" : "Damage", "description" : "300% Weapon Damage"}
-        ],
-        "parent" : "Evade"
-      },
-      {
-        "name" : "Parry",
-        "description" : "You quickly block a strike made by your foe, then counter as their defenses fall. Requires Daggers.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage", "description" : "100% Weapon Damage"},
-          {"affects" : "Cost", "description" : "10 Stamina"}
-        ],
-
-        "parent" : "Ambush"
-      },
-      {
-        "name" : "Effortless Riposte",
-        "description" : "If you succeed in countering a blow, your Parry costs no stamina at all.",
-        "type" : "active-upgrade",
-        "effects" : [
-        ],
-        "parent" : "Parry"
-      },
-      {
-        "name" : "Unforgiving Chain",
-        "description" : "Your daggers blur, a dance of deadly pain. Each strike adds to your critical-hit chance. After a critical attack, your chain resets as you begin another dance.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Critical hit chance", "description" : "1%"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Ambush"
-      },
-      {
-        "name" : "Evasion",
-        "description" : "They can't hit what they can't see. Your deceptive fighting style gives you a chance to dodge enemies attacks, taking no damage.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Chance to activate", "description" : "5%"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Unforgiving Chain"
-      },
-      {
-        "name" : "Disable",
-        "description" : "Critical hits on an enemy reduces their damage for a short time. This effect stacks.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Damage Reduction", "description" : "15%"},
-          {"affects" : "Duration", "description" : "10 seconds"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Unforgiving Chain"
-      },
-      {
-        "name" : "Knife in the Shadows",
-        "description" : "You are a deadly threat to any enemy that can't see you coming. When you attack from stealth, you automatically critically hit.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Unforgiving Chain"
-      },
-      {
-        "name" : "Twin Fangs",
-        "description" : "You lash out with both daggers, striking deep. With bonus damage if you flank your foe. Requires Daggers.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Number of hits", "description" : "2"},
-          {"affects" : "Damage per hit", "description" : "200% weapon damage"},
-          {"affects" : "Damage Bonus", "description" : "200%"},
-          {"affects" : "Cooldown", "description" : "8 seconds"},
-          {"affects" : "Cost", "description" : "50 Stamina"}
-        ],
-
-        "parent" : "Knife in the Shadows"
-      },
-      {
-        "name" : "Ripping Fangs",
-        "description" : "If flanking, your Twin Fangs attack will keep your target's armor sundered from the blow.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Damage Bonus", "description" : "100%"},
-          {"affects" : "Duration", "description" : "8 seconds"}
-        ],
-        "parent" : "Twin Fangs"
-      },
-      {
-        "name" : "Gaps in the Armor",
-        "description" : "Your attacks slip past armor to find a target's hidden vulnerabilities.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Armor Penetration", "description" : "25%"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Twin Fangs"
-      },
-      {
-        "name" : "Flank Attack",
-        "description" : "You leap through shadows to attack your foe with deadly strikes that hit them from behind. Requires Daggers.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Number of Hits", "description" : "2"},
-          {"affects" : "Damage per Hit", "description" : "200% weapon damage"},
-          {"affects" : "Cooldown", "description" : "8 seconds"},
-          {"affects" : "Cost", "description" : "35 Stamina"}
-        ],
-
-        "parent" : "Knife in the Shadows"
-      },
-      {
-        "name" : "Skirmisher",
-        "description" : "Before you target turns to face your blow, you move to stealth, impossible to find.",
-        "type" : "active-upgrade",
-        "effects" : [
-        ],
-        "parent" : "Flank Attack"
-      },
-      {
-        "name" : "Bloodied Prey",
-        "description" : "Your strikes cut deeper into any foe whose current halth is lower than your own.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Damage Bonus", "description" : "10%"},
-          {"affects" : "Cunning on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Flank Attack"
-      },
-      {
-        "name" : "Shadow Strike",
-        "description" : "You take your enemy by suprise with an attack they never see coming. If you are inn stealth or have not taken damage recently, this attack hits even harder.\\n Precision Detonator Ability: Use on incapacitated does for a combo.",
-        "type" : "active",
-        "effects" : [
-          {"affects" : "Damage", "description" : "400% Weapon Damage"},
-          {"affects" : "Damage Bonus", "description" : "200%"},
-          {"affects" : "Not damaged recently threshold", "description" : "5 seconds"},
-          {"affects" : "Cooldown", "description" : "16 seconds"},
-          {"affects" : "Cost", "description" : "50 Stamina"}
-        ],
-
-        "parent" : "Knife in the Shadows"
-      },
-      {
-        "name" : "Quick Blade",
-        "description" : "Shadow Strike costs less Stamina, and when you use it while flanking an opponent, you reduce all of your active cooldown times.",
-        "type" : "active-upgrade",
-        "effects" : [
-          {"affects" : "Cost Reduction", "description" : "10 Stamina"},
-          {"affects" : "Cooldown Reduction", "description" : "4 seconds"},
-        ],
-        "parent" : "Shadow Strike"
-      },
-      {
-        "name" : "Easy to Miss",
-        "description" : "Enemies are likley to overlook you in combat, much to their regret. This is especially true if you're flanking them..",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Threat reduction", "description" : "25%"},
-          {"affects" : "Flanking Threat reduction", "description" : "100%"},
-          {"affects" : "Cunning on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Quick Blade"
-      },
-      {
-        "name" : "And Take Them Down",
-        "description" : "Your experience with finding and pointing out enemy vulnerabilities gives the entire party a better chance to land a critical hit.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Critical Hit Chance Bonus", "description" : "5%"},
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Quick Blade"
-      },
-      {
-        "name" : "I Was Never Here",
-        "description" : "You have learned to use the distraction of an enemy's death to slip silently into the shadows. Killing a target removes any cooldown on Stealth.",
-        "type" : "passive",
-        "effects" : [
-          {"affects" : "Dexterity on unlock", "description" : "+3"}
-        ],
-
-        "parent" : "Quick Blade"
-      }
-    ]
-  }
+  "abilityTrees": [
+    {
+      "name": "Alchemy",
+      "abilities": [
+        {
+          "name": "Elemental Mines",
+          "description": "You throw out an assortment of different Traps in Front of you, applying different elemental effects to enemies that come into range.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage",
+              "description": "50% Weapon damage"
+            },
+            {
+              "affects": "Chill Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Fire Damage",
+              "description": "50% Weapon damage per second"
+            },
+            {
+              "affects": "Fire Damage Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Shocked Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "24 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "50 Stamina"
+            }
+          ],
+          "parent": ""
+        },
+        {
+          "name": "Throw Everything",
+          "description": "It's now or never. You use every ounce of Stamina you've got to litter the Battlefield with Traps. The more Stamina you use, the more traps you throw.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Additional Traps",
+              "description": "1 for every 5 Stamina"
+            }
+          ],
+          "parent": "Elemental Mines"
+        },
+        {
+          "name": "Sneak Attack",
+          "description": "Attacks upon a target's back or flank are much more likley to be killing blows.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Critical Hit Chance",
+              "description": "22%"
+            },
+            {
+              "affects": "Cunning on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Elemental Mines"
+        },
+        {
+          "name": "Poisoned Weapons",
+          "description": "You coat your weapons in a deadly toxin, making every attack poison enemies for a short time.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage",
+              "description": "25% weapon damage per second"
+            },
+            {
+              "affects": "Damage Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Duration",
+              "description": "10 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "24 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "20 Stamina"
+            }
+          ],
+          "parent": "Sneak Attack"
+        },
+        {
+          "name": "Infected Wounds",
+          "description": "Your poison helps your blades and arrows bite deeper. You do more damage with your weapon while Poisoned Weapons is active",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Damage Bonus",
+              "description": "25%"
+            }
+          ],
+          "parent": "Poisoned Weapons"
+        },
+        {
+          "name": "Flask of Frost",
+          "description": "This flask coats you in an icy skin that increases your armor and freezes enemies that strike you in melee range. You can't use this ability while another elixier is active.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage Resistance",
+              "description": "85%"
+            },
+            {
+              "affects": "Freeze Duration",
+              "description": "1 seconds"
+            },
+            {
+              "affects": "Duration",
+              "description": "5 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "32 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "20 Stamina"
+            }
+          ],
+          "parent": "Sneak Attack"
+        },
+        {
+          "name": "Bitter Chill",
+          "description": "Activating Flask of Frost also taunts all nearby foes to attack you.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Radius",
+              "description": "5 meters"
+            }
+          ],
+          "parent": "Flask of Frost"
+        },
+        {
+          "name": "Dance of Death",
+          "description": "You regain Stamina with every kill, the better to continue your assault.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Stamina restored",
+              "description": "50"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Sneak Attack"
+        },
+        {
+          "name": "Unorthodox",
+          "description": "The Alchimist's mind traveles curious, twisting paths, and though her methods are strange, they are effective.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            },
+            {
+              "affects": "Cunning on unlock",
+              "description": "+6"
+            }
+          ],
+          "parent": "Dance of Death"
+        },
+        {
+          "name": "Alchemy Mastery",
+          "description": "Any status effects caused by your Alchemy now lasts longer.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Duration Bonus",
+              "description": "25%"
+            },
+            {
+              "affects": "Cunning on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Dance of Death"
+        },
+        {
+          "name": "Fighting Dirty",
+          "description": "All of your sunder and poison effects last longer as you make more potent toxins and uglier wounds.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Duration Bonus",
+              "description": "25%"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Dance of Death"
+        },
+        {
+          "name": "Toxic Cloud",
+          "description": "You unleash a cloud of toxic dust that damages all enemies that remain in the area.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Radius",
+              "description": "3 meters"
+            },
+            {
+              "affects": "Damage",
+              "description": "15% weapon damage per second"
+            },
+            {
+              "affects": "Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "32 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "50 Stamina"
+            }
+          ],
+          "parent": "Fighting Dirty"
+        },
+        {
+          "name": "Contact Poison",
+          "description": "Toxic Cloud has a shorter cooldown time and now also poisons enemies in the area.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Cooldown Reduction",
+              "description": "5 seconds"
+            },
+            {
+              "affects": "Damage",
+              "description": "15% weapon damage per second"
+            },
+            {
+              "affects": "Duration",
+              "description": "8 seconds"
+            }
+          ],
+          "parent": "Toxic Cloud"
+        },
+        {
+          "name": "Explosive Toxin",
+          "description": "Your poisons curdle the blood of your targets. Enemies that die while poisoned explode in a shower of toxic mist.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Duration",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Radius",
+              "description": "3 meters"
+            },
+            {
+              "affects": "Damage",
+              "description": "50% weapon damage per second"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Toxic Cloud"
+        },
+        {
+          "name": "Knockout Bomb",
+          "description": "You hurl a grenade containing a powerful concoction that puts nearby enmeis to sleep. Sleeping enemies awaken after taking damage.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Duration",
+              "description": "10 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "20 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "35 Stamina"
+            }
+          ],
+          "parent": "Fighting Dirty"
+        },
+        {
+          "name": "Comatose",
+          "description": "Enemies affected by Knockout Bomb sleep more deeply, allowing your allies to hit them even harder with flanking damage.",
+          "type": "active-upgrade",
+          "effects": [
+            
+          ],
+          "parent": "Knockout Bomb"
+        },
+        {
+          "name": "Mercy Killing",
+          "description": "When their hearts aren't in the fight, it's almost too easy. Your attaks on panicked or sleeping enemies are automatical critical hits.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Cunning on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Knockout Bomb"
+        },
+        {
+          "name": "Flask of Fire",
+          "description": "This flask coats you in flames that spur you to frenzied action. For a short time, your abilities cost no stamina, and enemies who attack you are knocked backward. You can't use this ability while another elixier is active.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Duration",
+              "description": "5 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "32 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "20 Stamina"
+            }
+          ],
+          "parent": "Fighting Dirty"
+        },
+        {
+          "name": "Unquenchable Flames",
+          "description": "While flask of fire is active, all of your abilties have no cooldown.",
+          "type": "active-upgrade",
+          "effects": [
+            
+          ],
+          "parent": "Flask of Fire"
+        },
+        {
+          "name": "Ride in the Storm",
+          "description": "The effects of your elixiers last longer if you activate one immediatley after another expires.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Bonus duration",
+              "description": "3 seconds"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Flask of Fire"
+        },
+        {
+          "name": "Killer's Alchemy",
+          "description": "You can use more concentrated elixiers that give you an uncanny edge in battle. You do Bonus damage with all attacks for a short time whenever you use an elixier or a potion. The effect stacks.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Damage Bonus",
+              "description": "15%"
+            },
+            {
+              "affects": "Duration",
+              "description": "10 seconds"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Flask of Fire"
+        }
+      ]
+    },
+    {
+      "name": "Cunning",
+      "abilities": [
+        {
+          "name": "Stealth",
+          "description": "You step into the shadows, all but invisble to your enemies. Attacking from stealth gives you a damage bonus and brings you back to the enemy's attention. Dealing damage to enemies reduces the ability's cooldown time.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage Bonus",
+              "description": "50%"
+            },
+            {
+              "affects": "Duration",
+              "description": "30 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "24 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "20 Stamina"
+            }
+          ],
+          "parent": ""
+        },
+        {
+          "name": "Lost in the shadows",
+          "description": "You live in the darkness. Entering stealth is now instant and removes all debilitating effects on you. While in stealth, you can even pass through enemies without being detected.",
+          "type": "active-upgrade",
+          "effects": [
+            
+          ],
+          "parent": "Stealth"
+        },
+        {
+          "name": "Ambush",
+          "description": "While you're in Stealth and shortly after leaving it, your attacks ignore some of your target's armor.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Armor Penetration",
+              "description": "50%"
+            },
+            {
+              "affects": "Duration",
+              "description": "6"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Stealth"
+        },
+        {
+          "name": "Evade",
+          "description": "You leap away from incoming attacks, putting yourself where you need to be to win this fight.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Cooldown",
+              "description": "2 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "20 Stamina"
+            }
+          ],
+          "parent": "Ambush"
+        },
+        {
+          "name": "Hidden Step",
+          "description": "Enemies will swear you're still there, attacking empty air and hurting nobody but themselves as you leap away.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Duration",
+              "description": "3 seconds"
+            },
+            {
+              "affects": "Damage",
+              "description": "300% Weapon Damage"
+            }
+          ],
+          "parent": "Evade"
+        },
+        {
+          "name": "Parry",
+          "description": "You quickly block a strike made by your foe, then counter as their defenses fall. Requires Daggers.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage",
+              "description": "100% Weapon Damage"
+            },
+            {
+              "affects": "Cost",
+              "description": "10 Stamina"
+            }
+          ],
+          "parent": "Ambush"
+        },
+        {
+          "name": "Effortless Riposte",
+          "description": "If you succeed in countering a blow, your Parry costs no stamina at all.",
+          "type": "active-upgrade",
+          "effects": [
+            
+          ],
+          "parent": "Parry"
+        },
+        {
+          "name": "Unforgiving Chain",
+          "description": "Your daggers blur, a dance of deadly pain. Each strike adds to your critical-hit chance. After a critical attack, your chain resets as you begin another dance.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Critical hit chance",
+              "description": "1%"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Ambush"
+        },
+        {
+          "name": "Evasion",
+          "description": "They can't hit what they can't see. Your deceptive fighting style gives you a chance to dodge enemies attacks, taking no damage.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Chance to activate",
+              "description": "5%"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Unforgiving Chain"
+        },
+        {
+          "name": "Disable",
+          "description": "Critical hits on an enemy reduces their damage for a short time. This effect stacks.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Damage Reduction",
+              "description": "15%"
+            },
+            {
+              "affects": "Duration",
+              "description": "10 seconds"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Unforgiving Chain"
+        },
+        {
+          "name": "Knife in the Shadows",
+          "description": "You are a deadly threat to any enemy that can't see you coming. When you attack from stealth, you automatically critically hit.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Unforgiving Chain"
+        },
+        {
+          "name": "Twin Fangs",
+          "description": "You lash out with both daggers, striking deep. With bonus damage if you flank your foe. Requires Daggers.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Number of hits",
+              "description": "2"
+            },
+            {
+              "affects": "Damage per hit",
+              "description": "200% weapon damage"
+            },
+            {
+              "affects": "Damage Bonus",
+              "description": "200%"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "50 Stamina"
+            }
+          ],
+          "parent": "Knife in the Shadows"
+        },
+        {
+          "name": "Ripping Fangs",
+          "description": "If flanking, your Twin Fangs attack will keep your target's armor sundered from the blow.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Damage Bonus",
+              "description": "100%"
+            },
+            {
+              "affects": "Duration",
+              "description": "8 seconds"
+            }
+          ],
+          "parent": "Twin Fangs"
+        },
+        {
+          "name": "Gaps in the Armor",
+          "description": "Your attacks slip past armor to find a target's hidden vulnerabilities.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Armor Penetration",
+              "description": "25%"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Twin Fangs"
+        },
+        {
+          "name": "Flank Attack",
+          "description": "You leap through shadows to attack your foe with deadly strikes that hit them from behind. Requires Daggers.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Number of Hits",
+              "description": "2"
+            },
+            {
+              "affects": "Damage per Hit",
+              "description": "200% weapon damage"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "8 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "35 Stamina"
+            }
+          ],
+          "parent": "Knife in the Shadows"
+        },
+        {
+          "name": "Skirmisher",
+          "description": "Before you target turns to face your blow, you move to stealth, impossible to find.",
+          "type": "active-upgrade",
+          "effects": [
+            
+          ],
+          "parent": "Flank Attack"
+        },
+        {
+          "name": "Bloodied Prey",
+          "description": "Your strikes cut deeper into any foe whose current halth is lower than your own.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Damage Bonus",
+              "description": "10%"
+            },
+            {
+              "affects": "Cunning on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Flank Attack"
+        },
+        {
+          "name": "Shadow Strike",
+          "description": "You take your enemy by suprise with an attack they never see coming. If you are inn stealth or have not taken damage recently, this attack hits even harder.\\n Precision Detonator Ability: Use on incapacitated does for a combo.",
+          "type": "active",
+          "effects": [
+            {
+              "affects": "Damage",
+              "description": "400% Weapon Damage"
+            },
+            {
+              "affects": "Damage Bonus",
+              "description": "200%"
+            },
+            {
+              "affects": "Not damaged recently threshold",
+              "description": "5 seconds"
+            },
+            {
+              "affects": "Cooldown",
+              "description": "16 seconds"
+            },
+            {
+              "affects": "Cost",
+              "description": "50 Stamina"
+            }
+          ],
+          "parent": "Knife in the Shadows"
+        },
+        {
+          "name": "Quick Blade",
+          "description": "Shadow Strike costs less Stamina, and when you use it while flanking an opponent, you reduce all of your active cooldown times.",
+          "type": "active-upgrade",
+          "effects": [
+            {
+              "affects": "Cost Reduction",
+              "description": "10 Stamina"
+            },
+            {
+              "affects": "Cooldown Reduction",
+              "description": "4 seconds"
+            }
+          ],
+          "parent": "Shadow Strike"
+        },
+        {
+          "name": "Easy to Miss",
+          "description": "Enemies are likley to overlook you in combat, much to their regret. This is especially true if you're flanking them..",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Threat reduction",
+              "description": "25%"
+            },
+            {
+              "affects": "Flanking Threat reduction",
+              "description": "100%"
+            },
+            {
+              "affects": "Cunning on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Quick Blade"
+        },
+        {
+          "name": "And Take Them Down",
+          "description": "Your experience with finding and pointing out enemy vulnerabilities gives the entire party a better chance to land a critical hit.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Critical Hit Chance Bonus",
+              "description": "5%"
+            },
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Quick Blade"
+        },
+        {
+          "name": "I Was Never Here",
+          "description": "You have learned to use the distraction of an enemy's death to slip silently into the shadows. Killing a target removes any cooldown on Stealth.",
+          "type": "passive",
+          "effects": [
+            {
+              "affects": "Dexterity on unlock",
+              "description": "+3"
+            }
+          ],
+          "parent": "Quick Blade"
+        }
+      ]
+    }
+  ]
+}
